@@ -49,6 +49,7 @@ post:
 favicon: /img/favicon.webp # 默认方形头像
 isRoundedAvatar: false # 是否圆形头像
 isAvatarRotating: false # 圆形头像是否开启悬浮旋转
+displayTitleInTab: false # 是否在浏览器标签页显示文章标题
 
 # 是否启用一些特色工具 false | true
 tool:
@@ -183,5 +184,10 @@ comment:
 
 inject:
   css: css/custom.css # 找到该文件后，编写你的css样式，每个页面都会自动引入
+
+# 在<head>增加一个<base>元素，仅限有特殊需求者使用：https://developer.mozilla.org/zh-CN/docs/Web/HTML/Reference/Elements/base
+baseElement:
+  href:
+  target:
 
 version: v2.0.0
